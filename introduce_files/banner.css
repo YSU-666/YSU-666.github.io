@@ -1,0 +1,138 @@
+﻿ .topimg {
+
+    position: relative;
+
+    z-index: 0; }
+
+    .topimg .slick-list li {
+      max-width:100%; overflow:hidden;
+      position: relative; }
+
+ .topimg .arrow {
+
+      position: absolute;
+
+      top: 46%;
+
+      height:60px;
+
+      width:60px;
+
+      margin-top: -35px;
+
+      text-align: center;
+
+      cursor: pointer;
+
+      z-index: 1000;
+ }
+
+
+    .topimg .slick-dots {
+
+      position: absolute;
+
+      bottom:95px;
+
+      text-align: center;
+
+      z-index: 1000; left:45%;}
+
+    .topimg .slick-dots li {
+
+      display: inline-block;
+
+      width: auto;
+
+      float: none;
+
+      vertical-align: middle; }
+
+    .topimg .slick-dots li button {
+
+      background: #fff;
+
+      border: 0 none;
+
+      cursor: pointer;
+
+      display: block;
+
+      font-size: 0;
+
+      height:3px;
+
+      line-height: 0;
+
+      margin: 0 8px;
+
+      outline: medium none;
+
+      padding: 0;
+
+      width:20px; }
+
+    .topimg .slick-dots li.slick-active button {
+
+          background: #01578e; }
+
+   
+     
+.topimg .slick-list li h3 {
+
+        font-size: 40px;
+
+        color: #fff;
+
+        position: absolute;
+
+        bottom: 400px;
+
+        right: 100px;
+
+        line-height: 1.5em;
+
+        text-shadow: 2px 2px 0px #000;
+
+        text-align: right;
+
+        max-width: 70%; }
+
+
+	 
+        @media screen and (max-width: 900px) {
+		
+          .topimg .slick-list li h3 {
+
+            max-width: 100%;
+
+            text-align: center;
+
+            width: auto;
+
+            right: 25px;
+
+            left: 25px;
+
+            font-size: 18px;
+
+            white-space: nowrap;
+
+            overflow: hidden;
+
+            text-overflow: ellipsis;
+
+            bottom: 15px;
+
+            text-shadow: 1px 1px 0px #000; }
+			 .topimg .slick-dots { text-align: right; bottom:12px; right:5%;} 
+			.topimg .slick-dots li button{ width:15px;}
+			 .topimg .arrow{ display:none !important;}
+	 .topimg .arrow.pre { display:none !important;}
+      .topimg .arrow.next { display:none !important;}
+
+			 }
+			
+
+
+     
